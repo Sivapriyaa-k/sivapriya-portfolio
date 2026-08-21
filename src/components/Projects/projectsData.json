@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Winekart",
+    "type": "WooCommerce",
+    "url": "https://winekart.co.il/",
+    "description": "WooCommerce e-commerce website with responsive layouts and shopping functionality.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2025",
+    "highlights": [
+      "Developed and customized WooCommerce website based on project requirements",
+      "Implemented product, shop, cart, and checkout functionality",
+      "Customized layouts and styling for desktop and mobile devices"
+    ],
+    "languages": ["WordPress", "WooCommerce", "PHP", "JavaScript", "CSS"]
+  },
+  {
+    "name": "Atopicom",
+    "type": "WordPress Website",
+    "url": "https://atopicom.com/",
+    "description": "WordPress website developed and customized according to project requirements.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2025",
+    "highlights": [
+      "Developed and customized website functionality using WordPress",
+      "Implemented responsive layouts and UI customizations",
+      "Troubleshot and resolved layout, responsiveness, and functionality issues"
+    ],
+    "languages": ["WordPress", "Elementor", "PHP", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "name": "Cubinn",
+    "type": "WordPress / Elementor",
+    "url": "https://cubinn.steppingstones.in/",
+    "description": "Responsive business website developed using WordPress and Elementor.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2025",
+    "highlights": [
+      "Developed and customized responsive website pages",
+      "Implemented page layouts, responsive styling, and website functionality",
+      "Customized website sections for desktop and mobile devices"
+    ],
+    "languages": ["WordPress", "Elementor", "JavaScript", "CSS"]
+  },
+  {
+    "name": "KristaPrint",
+    "type": "WooCommerce Website",
+    "url": "https://kristaprint.in/",
+    "description": "WooCommerce e-commerce website with customized product, checkout, cart, and order functionality.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2026",
+    "highlights": [
+      "Developed and customized WooCommerce e-commerce functionality",
+      "Customized WooCommerce templates, product options, checkout fields, and guest order viewing",
+      "Resolved UI, responsive design, and WooCommerce-related issues"
+    ],
+    "languages": [
+      "WordPress",
+      "WooCommerce",
+      "PHP",
+      "JavaScript",
+      "jQuery",
+      "CSS"
+    ]
+  },
+  {
+    "name": "Hearth & Spoon",
+    "type": "WordPress Website",
+    "url": "https://hearthandspoon.in/",
+    "description": "Responsive WordPress website developed and customized according to project requirements.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2026",
+    "highlights": [
+      "Developed and customized website pages using WordPress",
+      "Implemented responsive layouts and UI customizations",
+      "Optimized website sections for desktop and mobile devices"
+    ],
+    "languages": ["WordPress", "Elementor", "PHP", "JavaScript", "CSS"]
+  },
+  {
+    "name": "React.js Projects",
+    "type": "Frontend Development",
+    "url": "",
+    "description": "Personal React.js projects developed to gain practical experience in component-based frontend development.",
+    "role": "WordPress Developer",
+    "company": "Kavisoftek",
+    "projectType": "Client Project",
+    "duration": "2026",
+    "highlights": [
+      "Developed reusable React components",
+      "Built responsive user interfaces",
+      "Implemented component-based frontend functionality"
+    ],
+    "languages": ["React.js", "JavaScript", "HTML", "CSS"]
+  },
+  {
+    "name": "PHP & MySQL Applications",
+    "type": "Web Application",
+    "url": "",
+    "description": "PHP and MySQL-based web applications developed with frontend, backend, and database functionality.",
+    "highlights": [
+      "Implemented frontend and backend functionality",
+      "Performed MySQL database operations",
+      "Integrated frontend features with backend functionality"
+    ],
+    "languages": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"]
+  }
+]

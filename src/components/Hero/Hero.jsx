@@ -4,7 +4,7 @@ import { FaArrowDown } from "react-icons/fa6";
 export default function Hero() {
   return (
     <>
-      <section className="Hero container m-auto px-[200px] py-[100px]">
+      <section className="Hero container m-auto px-[200px] pt-[100px]  pb-[50px]">
         <div className="Hero-content">
           <h1 className="text-6xl text-[#EE8A25] font-semibold">Sivapriya,</h1>
           <h2 className="text-6xl text-white font-semibold mt-3">

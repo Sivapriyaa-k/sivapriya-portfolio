@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dropbox Landing Page",
+    "type": "Frontend Project",
+    "url": "https://sivapriyaa-k.github.io/corporate-landing-page/",
+    "description": "Responsive Dropbox-inspired landing page built to practice frontend layout and responsive web development.",
+    "highlights": [
+      "Created a responsive landing page based on the original design",
+      "Implemented reusable UI sections and responsive layouts",
+      "Optimized the interface for desktop and mobile screens"
+    ],
+    "languages": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    "projectType": "Personal Project",
+    "company": "",
+    "role": "Frontend Developer",
+    "duration": ""
+  },
+  {
+    "name": "Tic Tac Toe",
+    "type": "JavaScript Project",
+    "url": "https://sivapriyaa-k.github.io/tic-tac-toe/",
+    "description": "Interactive Tic Tac Toe game developed using JavaScript with dynamic game logic.",
+    "highlights": [
+      "Implemented interactive game functionality",
+      "Added player turn and winning-condition logic",
+      "Created a responsive game interface"
+    ],
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "projectType": "Personal Project",
+    "company": "",
+    "role": "Frontend Developer",
+    "duration": ""
+  },
+  {
+    "name": "Sports Quiz",
+    "type": "JavaScript Project",
+    "url": "https://sivapriyaa-k.github.io/sports-Quiz/",
+    "description": "Interactive sports quiz application with dynamic questions and user interaction.",
+    "highlights": [
+      "Implemented interactive quiz functionality",
+      "Added dynamic question and answer handling",
+      "Created a responsive user interface"
+    ],
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "projectType": "Personal Project",
+    "company": "",
+    "role": "Frontend Developer",
+    "duration": ""
+  },
+  {
+    "name": "Book Management",
+    "type": "JavaScript Project",
+    "url": "https://sivapriyaa-k.github.io/sports-Quiz/",
+    "description": "Book management interface developed to practice JavaScript-based data handling and DOM manipulation.",
+    "highlights": [
+      "Implemented book data management functionality",
+      "Created interactive UI components",
+      "Handled user input and dynamic content updates"
+    ],
+    "languages": ["HTML", "CSS", "JavaScript"],
+    "projectType": "Personal Project",
+    "company": "",
+    "role": "Frontend Developer",
+    "duration": ""
+  },
+  {
+    "name": "Profile Card",
+    "type": "React.js Project",
+    "url": "https://sivapriyaa-k.github.io/Profile-card-project-reactjs/",
+    "description": "Responsive profile card application developed using React.js and component-based UI development.",
+    "highlights": [
+      "Built reusable React components",
+      "Implemented component-based UI structure",
+      "Created a responsive profile card interface"
+    ],
+    "languages": ["React.js", "JavaScript", "HTML", "CSS"],
+    "projectType": "Personal Project",
+    "company": "",
+    "role": "Frontend Developer",
+    "duration": ""
+  }
+]

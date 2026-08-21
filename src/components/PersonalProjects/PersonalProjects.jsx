@@ -1,18 +1,15 @@
-import projectsData from "../Projects/projectsData.json";
+import projectsData from "../PersonalProjects/PersonalProjectsData.json";
 import { useState } from "react";
 import {
   FaArrowUpRightFromSquare,
   FaCircleCheck,
   FaXmark,
 } from "react-icons/fa6";
-export default function Project() {
+export default function PersonalProject() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
     <section className="Hero container m-auto px-[200px] py-[50px]">
-      <p>Projects</p>
-      <h2 className="text-white font-bold text-3xl mb-10">
-        Live Client Websites
-      </h2>
+      <h2 className="text-white font-bold text-3xl mb-10">Personal Projects</h2>
 
       <div className="grid grid-cols-3 gap-5">
         {projectsData.map((project, index) => (
