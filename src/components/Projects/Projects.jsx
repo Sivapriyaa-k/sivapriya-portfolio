@@ -8,7 +8,7 @@ import {
 export default function Project() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
-    <section className="Hero container m-auto px-[200px] py-[50px]">
+    <section className="Hero container m-auto `px-[200px] py-[50px]`">
       <p>Projects</p>
       <h2 className="text-white font-bold text-3xl mb-10">
         Live Client Websites

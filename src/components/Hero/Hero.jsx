@@ -4,7 +4,7 @@ import { FaArrowDown } from "react-icons/fa6";
 export default function Hero() {
   return (
     <>
-      <section className="Hero container m-auto px-[200px] pt-[100px]  pb-[50px]">
+      <section className="Hero container m-auto `px-[200px]` `pt-[100px]  pb-[50px]`">
         <div className="Hero-content">
           <h1 className="text-6xl text-[#EE8A25] font-semibold">Sivapriya,</h1>
           <h2 className="text-6xl text-white font-semibold mt-3">
@@ -33,17 +33,17 @@ export default function Hero() {
               connect on linkedin
             </a>
           </div>
-          <div className="hero-btns flex gap-[20px] mt-10">
+          <div className="hero-btns flex `gap-[20px]` mt-10">
             <a
               href=""
-              className="border-1 text-black bg-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl"
+              className="border text-black bg-white p-3 `w-[150px]` flex gap-3 center justify-center items-center rounded-xl"
             >
               View Work <FaArrowDown />
             </a>
             <a
               href="https://github.com/Sivapriyaa-k"
               target="_blank"
-              className="border-1 text-white p-3 w-[150px] flex gap-3 center justify-center items-center"
+              className="border text-white p-3 `w-[150px]` flex gap-3 center justify-center items-center"
             >
               Github <FaGithub />
             </a>
