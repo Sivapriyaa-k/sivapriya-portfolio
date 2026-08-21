@@ -8,7 +8,7 @@ import {
 export default function PersonalProject() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
-    <section className="Hero container m-auto px-[200px] py-[50px]">
+    <section className="Hero container m-auto `px-[200px] py-[50px]`">
       <h2 className="text-white font-bold text-3xl mb-10">Personal Projects</h2>
 
       <div className="grid grid-cols-3 gap-5">
