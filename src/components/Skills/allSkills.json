@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Wordpress",
+    "logo": "wordpress.png"
+  },
+  {
+    "name": "Woocommerce",
+    "logo": "woocommerce.png"
+  },
+  {
+    "name": "Elementor",
+    "logo": "elementor.png"
+  },
+  {
+    "name": "PHP",
+    "logo": "php.png"
+  },
+  {
+    "name": "HTML",
+    "logo": "html.png"
+  },
+  {
+    "name": "CSS",
+    "logo": "css.png"
+  },
+  {
+    "name": "Javascript",
+    "logo": "js.png"
+  },
+  {
+    "name": "Bootstrap",
+    "logo": "bootstrap.png"
+  },
+  {
+    "name": "Tailwind",
+    "logo": "tailwind.png"
+  },
+  {
+    "name": "React",
+    "logo": "react.png"
+  },
+  {
+    "name": "Postman",
+    "logo": "postman.png"
+  },
+  {
+    "name": "GitHub",
+    "logo": "github.png"
+  },
+  {
+    "name": "MySql",
+    "logo": "mysql.png"
+  }
+]

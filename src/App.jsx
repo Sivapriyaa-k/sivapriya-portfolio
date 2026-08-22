@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Project from "./components/Projects/Projects";
 import PersonalProject from "./components/PersonalProjects/PersonalProjects";
 import Contact from "./components/Contact/Contact";
+import Skills from "./components/Skills/Skills";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Skills />
         <Project />
         <PersonalProject />
         <Contact />
