@@ -122,13 +122,13 @@ export default function Contact() {
 
         <div className="flex flex-wrap items-center justify-center gap-2.5">
           {/* Call */}
-          <a
+          {/*  <a
             href="tel:+919788174642"
             className="flex items-center gap-2 px-4 py-2 text-xs font-medium rounded bg-[rgba(238,138,37,0.1)] hover:bg-[rgba(238,138,37,0.2)] hover:text-[#EE8A25] text-white border border-[rgba(238,138,37,0.4)] transition-colors"
           >
             <CiPhone size={18} />
             <span>Call Me</span>
-          </a>
+          </a> */}
 
           {/* LinkedIn */}
           <a

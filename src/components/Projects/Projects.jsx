@@ -14,7 +14,7 @@ export default function Project() {
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className="group flex flex-col justify-between rounded-lg p-5 bg-[#111317] border border-zinc-800 hover:border-zinc-700 transition-colors"
+            className="group flex flex-col justify-between rounded-lg p-5 bg-[#111317] border border-zinc-800 hover:border-[#EE8A25] transition-colors"
           >
             <div className="space-y-3">
               {/* Category */}

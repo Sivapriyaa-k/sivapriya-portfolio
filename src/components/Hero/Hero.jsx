@@ -48,7 +48,7 @@ export default function Hero() {
               Github <FaGithub />
             </a>
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
+          {/*  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
             <div className="text-white border border-[#EE8A25] p-6 bg-[rgba(238,138,37,0.1)] rounded-2xl">
               <h4 className="text-[24px] text-[#EE8A25] font-semibold">4+</h4>
               <p className="text-[16px]">Years Experience</p>
@@ -65,7 +65,7 @@ export default function Hero() {
               <h4 className="text-[24px] text-[#EE8A25] font-semibold">100%</h4>
               <p>Pixel-Perfect Delivery</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
