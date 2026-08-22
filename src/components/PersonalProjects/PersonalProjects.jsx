@@ -2,7 +2,7 @@ import projectsData from "../PersonalProjects/PersonalProjectsData.json";
 import { useState } from "react";
 import {
   FaArrowUpRightFromSquare,
-  FaCircleCheck,
+  FaCheck,
   FaXmark,
 } from "react-icons/fa6";
 export default function PersonalProject() {
@@ -69,7 +69,7 @@ export default function PersonalProject() {
                     key={highlightIndex}
                     className="flex items-start gap-2 text-xs text-zinc-300"
                   >
-                    <FaCircleCheck className="w-3.5 h-3.5 text-[#EE8A25] shrink-0 mt-0.5" />
+                    <FaCheck className="w-3.5 h-3.5 text-[#EE8A25] shrink-0 mt-0.5" />
 
                     <span className="line-clamp-1">{highlight}</span>
                   </div>
@@ -200,7 +200,7 @@ export default function PersonalProject() {
                       key={index}
                       className="flex items-start gap-2 text-sm text-zinc-300"
                     >
-                      <FaCircleCheck className="w-3.5 h-3.5 text-[#EE8A25] shrink-0 mt-1" />
+                      <FaCheck className="w-3.5 h-3.5 text-[#EE8A25] shrink-0 mt-1" />
 
                       <span>{item}</span>
                     </div>

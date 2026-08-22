@@ -5,6 +5,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Project from "./components/Projects/Projects";
 import PersonalProject from "./components/PersonalProjects/PersonalProjects";
+import Contact from "./components/Contact/Contact";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Project />
         <PersonalProject />
+        <Contact />
       </main>
     </>
   );
