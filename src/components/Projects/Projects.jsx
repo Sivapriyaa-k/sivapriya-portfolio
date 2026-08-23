@@ -94,7 +94,7 @@ export default function Project() {
               <div className="flex items-center justify-between pt-1">
                 <button
                   onClick={() => setSelectedProject(project)}
-                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-1.5 rounded transition-colors flex items-center gap-1"
+                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-1.5 rounded transition-colors flex items-center gap-1 cursor-pointer"
                 >
                   <span>More Info</span>
                   <FaArrowUpRightFromSquare className="w-3 h-3 text-zinc-400" />
