@@ -9,7 +9,8 @@ export default function Skills() {
             <div
               key={index}
               id={index}
-              className="flex gap-2 flex-col align-middle justify-center"
+              className="flex gap-2 flex-col align-middle justify-center   wow animate__animated animate__zoomIn"
+              data-wow-delay="0.05s"
             >
               <img
                 src={`/images/skills/${skill.logo}`}

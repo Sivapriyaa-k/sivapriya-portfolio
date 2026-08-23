@@ -20,7 +20,10 @@ export default function Contact() {
       {/* Contact Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
         {/* Email Card */}
-        <div className="p-5 rounded-lg bg-[#111317] border border-zinc-800 hover:border-zinc-700 flex flex-col justify-between transition-colors">
+        <div
+          className="p-5 rounded-lg bg-[#111317] border border-zinc-800 hover:border-zinc-700 flex flex-col justify-between transition-colors   wow animate__animated animate__zoomIn"
+          data-wow-delay="0.05s"
+        >
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <div className="p-2.5 rounded bg-[rgba(238,138,37,0.1)] text-[#EE8A25]">
@@ -65,7 +68,10 @@ export default function Contact() {
         </div>
 
         {/* Phone Card */}
-        <div className="p-5 rounded-lg bg-[#111317] border border-zinc-800 hover:border-zinc-700 flex flex-col justify-between transition-colors">
+        <div
+          className="p-5 rounded-lg bg-[#111317] border border-zinc-800 hover:border-zinc-700 flex flex-col justify-between transition-colors   wow animate__animated animate__zoomIn"
+          data-wow-delay="0.05s"
+        >
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <div className="p-2.5 rounded bg-[rgba(238,138,37,0.1)] text-[#EE8A25]">
@@ -111,7 +117,10 @@ export default function Contact() {
       </div>
 
       {/* Social / Resume Section */}
-      <div className="p-6 rounded-lg bg-[#111317] border border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div
+        className="p-6 rounded-lg bg-[#111317] border border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4   wow animate__animated animate__zoomIn"
+        data-wow-delay="0.05s"
+      >
         <div className="space-y-1 text-center sm:text-left">
           <h4 className="text-sm font-bold text-zinc-100">Let's Connect</h4>
 
