@@ -2,9 +2,9 @@ import allSkills from "../Skills/allSkills.json";
 export default function Skills() {
   return (
     <>
-      <section className="Hero container m-auto px-[200px] py-[50px]">
+      <section className="Hero container m-auto px-5 sm:px-8 xl:px-[200px] py-[50px]">
         <h2 className="text-white font-bold text-3xl mb-10">Skills</h2>
-        <div className="skills grid grid-cols-1 md:grid-cols-6 gap-2 gap-y-11">
+        <div className="skills grid grid-cols-4 md:grid-cols-6 gap-2 gap-y-11">
           {allSkills.map((skill, index) => (
             <div
               key={index}

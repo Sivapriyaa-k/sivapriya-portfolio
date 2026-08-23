@@ -5,7 +5,7 @@ export default function Header() {
     <>
       <header className="h-10">
         <nav>
-          <div className="container m-auto flex justify-between min-h-14 px-[200px]">
+          <div className="container m-auto flex justify-between min-h-14 sm:px-8 xl:px-[200px] px-5">
             <a
               href="/"
               className="text-2xl font-bold text-[#EE8A25] flex items-center"

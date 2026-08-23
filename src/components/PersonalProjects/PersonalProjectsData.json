@@ -11,9 +11,8 @@
     ],
     "languages": ["HTML", "CSS", "Bootstrap", "JavaScript"],
     "projectType": "Personal Project",
-    "company": "",
-    "role": "Frontend Developer",
-    "duration": ""
+
+    "role": "Frontend Developer"
   },
   {
     "name": "Tic Tac Toe",
@@ -27,9 +26,8 @@
     ],
     "languages": ["HTML", "CSS", "JavaScript"],
     "projectType": "Personal Project",
-    "company": "",
-    "role": "Frontend Developer",
-    "duration": ""
+
+    "role": "Frontend Developer"
   },
   {
     "name": "Sports Quiz",
@@ -43,9 +41,7 @@
     ],
     "languages": ["HTML", "CSS", "JavaScript"],
     "projectType": "Personal Project",
-    "company": "",
-    "role": "Frontend Developer",
-    "duration": ""
+    "role": "Frontend Developer"
   },
   {
     "name": "Book Management",
@@ -59,9 +55,7 @@
     ],
     "languages": ["HTML", "CSS", "JavaScript"],
     "projectType": "Personal Project",
-    "company": "",
-    "role": "Frontend Developer",
-    "duration": ""
+    "role": "Frontend Developer"
   },
   {
     "name": "Profile Card",
@@ -75,8 +69,7 @@
     ],
     "languages": ["React.js", "JavaScript", "HTML", "CSS"],
     "projectType": "Personal Project",
-    "company": "",
-    "role": "Frontend Developer",
-    "duration": ""
+
+    "role": "Frontend Developer"
   }
 ]

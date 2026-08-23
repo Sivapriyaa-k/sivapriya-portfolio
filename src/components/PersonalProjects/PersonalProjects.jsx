@@ -1,21 +1,18 @@
 import projectsData from "../PersonalProjects/PersonalProjectsData.json";
 import { useState } from "react";
-import {
-  FaArrowUpRightFromSquare,
-  FaCheck,
-  FaXmark,
-} from "react-icons/fa6";
+import { FaArrowUpRightFromSquare, FaCheck, FaXmark } from "react-icons/fa6";
 export default function PersonalProject() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
-    <section className="Hero container m-auto px-[200px] py-[50px]">
+    <section className="Hero container m-auto px-5 sm:px-8 xl:px-[200px] py-[50px]">
       <h2 className="text-white font-bold text-3xl mb-10">Personal Projects</h2>
 
-      <div className="grid grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {projectsData.map((project, index) => (
           <div
             key={index}
-            className="group flex flex-col justify-between rounded-lg p-5 bg-[#111317] border border-zinc-800 hover:border-zinc-700 transition-colors"
+            className="group flex flex-col justify-between rounded-lg p-5 bg-[#111317] border border-zinc-800 hover:border-[rgba(238,138,37,0.4)] transition-colors wow animate__animated animate__zoomIn"
+            data-wow-delay="0.5s"
           >
             <div className="space-y-3">
               {/* Category */}
@@ -95,16 +92,15 @@ export default function PersonalProject() {
               <div className="flex items-center justify-between pt-1">
                 <button
                   onClick={() => setSelectedProject(project)}
-                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-1.5 rounded transition-colors flex items-center gap-1 cursor-pointer"
+                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-[rgba(238,138,37,0.2)] px-3 py-1.5 rounded transition-colors flex items-center gap-2 cursor-pointer"
                 >
                   <span>More Info</span>
-                  <FaArrowUpRightFromSquare className="w-3 h-3 text-zinc-400" />
                 </button>
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-zinc-700 px-3 py-1.5 rounded transition-colors flex items-center gap-1"
+                  className="text-xs font-medium text-white bg-zinc-800 hover:bg-[rgba(238,138,37,0.2)] px-3 py-1.5 rounded transition-colors flex items-center gap-2"
                 >
                   <span>Visit Site</span>
                   <FaArrowUpRightFromSquare className="w-3 h-3 text-zinc-400" />
@@ -166,12 +162,12 @@ export default function PersonalProject() {
                   </p>
                 </div>
 
-                <div>
+                {/* <div>
                   <p className="text-xs text-zinc-500">Company</p>
                   <p className="text-sm text-white mt-1">
                     {selectedProject.company}
                   </p>
-                </div>
+                </div> */}
 
                 <div>
                   <p className="text-xs text-zinc-500">Project Type</p>
@@ -180,16 +176,16 @@ export default function PersonalProject() {
                   </p>
                 </div>
 
-                <div>
+                {/* <div>
                   <p className="text-xs text-zinc-500">Duration</p>
                   <p className="text-sm text-white mt-1">
                     {selectedProject.duration}
                   </p>
-                </div>
+                </div> */}
               </div>
 
               {/* Responsibilities */}
-              <div className="mt-6">
+              {/* <div className="mt-6">
                 <h3 className="text-sm font-semibold text-[#EE8A25] mb-3">
                   My Contributions
                 </h3>
@@ -206,7 +202,7 @@ export default function PersonalProject() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               {/* Technologies */}
               <div className="mt-6">

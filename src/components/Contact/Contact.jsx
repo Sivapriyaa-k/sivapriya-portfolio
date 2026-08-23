@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="Hero container m-auto px-4 sm:px-8 lg:px-[200px] py-[50px]"
+      className="Hero container m-auto px-4 sm:px-8 xl:px-[200px] py-[50px]"
     >
       {/* Heading */}
       <div className="text-left space-y-3 mb-12">
