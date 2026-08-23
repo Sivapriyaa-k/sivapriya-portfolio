@@ -19,7 +19,7 @@ export default function PersonalProject() {
           >
             <div className="space-y-3">
               {/* Category */}
-              <div className="flex items-center justify-between gap-2 pb-2.5 border-b border-zinc-800/80">
+              {/* <div className="flex items-center justify-between gap-2 pb-2.5 border-b border-zinc-800/80">
                 <span className="text-[10px] font-mono uppercase tracking-wider text-[#EE8A25]">
                   {project.category}
                 </span>
@@ -27,7 +27,7 @@ export default function PersonalProject() {
                 <span className="text-[10px] font-mono text-zinc-500">
                   #{project.name.toLowerCase().replace(/\s+/g, "-")}
                 </span>
-              </div>
+              </div> */}
 
               {/* Name + URL */}
               <div>
