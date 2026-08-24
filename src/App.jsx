@@ -7,6 +7,7 @@ import Project from "./components/Projects/Projects";
 import PersonalProject from "./components/PersonalProjects/PersonalProjects";
 import Contact from "./components/Contact/Contact";
 import Skills from "./components/Skills/Skills";
+import Footer from "./components/Footer/Footer";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -20,6 +21,7 @@ function App() {
         <PersonalProject />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
