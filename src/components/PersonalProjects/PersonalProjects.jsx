@@ -12,7 +12,7 @@ export default function PersonalProject() {
           <div
             key={index}
             className="group flex flex-col justify-between rounded-lg p-5 bg-[#111317] border border-zinc-800 hover:border-[rgba(238,138,37,0.4)] transition-colors wow animate__animated animate__zoomIn"
-            data-wow-delay="0.5s"
+            data-wow-delay="0.3s"
           >
             <div className="space-y-3">
               {/* Category */}
