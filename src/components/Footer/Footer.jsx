@@ -10,20 +10,23 @@ export default function Footer() {
             © {year} | Sivapriya
           </div>
           <div>
-            <ul className="flex gap-3 text-white row">
+            <ul className="flex gap-4 text-white row ">
               <li>
-                <a href="https://www.linkedin.com/in/sivapriya-k/">
-                  <FaLinkedin />
+                <a
+                  href="https://www.linkedin.com/in/sivapriya-k/"
+                  target="_blank"
+                >
+                  <FaLinkedin size={25} className="hover:text-[#EE8A25]" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Sivapriyaa-k">
-                  <FaGithub />
+                <a href="https://github.com/Sivapriyaa-k" target="_blank">
+                  <FaGithub size={25} className="hover:text-[#EE8A25]" />
                 </a>
               </li>
               <li>
-                <a href="mailto:sivapriyakalamegam@gmail.com">
-                  <FaEnvelope />
+                <a href="mailto:sivapriyakalamegam@gmail.com" target="_blank">
+                  <FaEnvelope size={25} className="hover:text-[#EE8A25]" />
                 </a>
               </li>
             </ul>
