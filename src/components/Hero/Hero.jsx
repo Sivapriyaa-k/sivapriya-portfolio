@@ -51,14 +51,16 @@ export default function Hero() {
           <div className="hero-btns flex gap-[20px] mt-10">
             <a
               href=""
-              className="border text-black bg-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl hover:bg-black hover:text-white"
+              className="border text-black bg-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl hover:bg-black hover:text-white animate__animated animate__zoomIn"
+              data-wow-delay="0.5s"
             >
               View Work <FaArrowDown />
             </a>
             <a
               href="https://github.com/Sivapriyaa-k"
               target="_blank"
-              className="border text-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl hover:bg-white hover:text-black"
+              className="border text-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl hover:bg-white hover:text-black  animate__animated animate__zoomIn"
+              data-wow-delay="0.5s"
             >
               Github <FaGithub />
             </a>
