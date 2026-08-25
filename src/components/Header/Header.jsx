@@ -15,7 +15,7 @@ export default function Header() {
             <div className="nav-links flex items-center justify-center gap-10 text-[#A1A1A1] font-semibold">
               <a href="/">Home</a>
               <a href="#projects">Projects</a>
-              <a href="/blog">Contact</a>
+              <a href="#contact">Contact</a>
             </div>
           </div>
         </nav>

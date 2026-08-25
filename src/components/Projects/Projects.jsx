@@ -4,7 +4,10 @@ import { FaArrowUpRightFromSquare, FaCheck, FaXmark } from "react-icons/fa6";
 export default function Project() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
-    <section className="Hero container m-auto px-5 sm:px-8 xl:px-[200px] py-[50px]">
+    <section
+      className="Hero container m-auto px-5 sm:px-8 xl:px-[200px] py-[50px]"
+      id="projects"
+    >
       <h2 className="text-white font-bold text-3xl mb-10">
         Live Client Websites
       </h2>
