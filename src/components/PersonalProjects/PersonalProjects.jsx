@@ -1,6 +1,11 @@
 import projectsData from "../PersonalProjects/PersonalProjectsData.json";
 import { useState } from "react";
-import { FaArrowUpRightFromSquare, FaCheck, FaXmark } from "react-icons/fa6";
+import {
+  FaArrowUpRightFromSquare,
+  FaCheck,
+  FaXmark,
+  FaCircleInfo,
+} from "react-icons/fa6";
 export default function PersonalProject() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
@@ -33,15 +38,10 @@ export default function PersonalProject() {
                     {project.name}
                   </h3>
 
-                  {/* <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="p-1 text-zinc-500 hover:text-zinc-100 transition-colors"
-                    title="Open live site"
-                  >
-                    <FaArrowUpRightFromSquare className="w-3.5 h-3.5" />
-                  </a> */}
+                  <FaCircleInfo
+                    onClick={() => setSelectedProject(project)}
+                    className="text-[#EE8A25] cursor-pointer"
+                  />
                 </div>
 
                 <a
@@ -90,12 +90,12 @@ export default function PersonalProject() {
 
               {/* Visit */}
               <div className="flex items-center justify-between pt-1">
-                <button
+                {/* <button
                   onClick={() => setSelectedProject(project)}
                   className="text-xs font-medium text-white bg-zinc-800 hover:bg-[rgba(238,138,37,0.2)] px-3 py-1.5 rounded transition-colors flex items-center gap-2 cursor-pointer"
                 >
                   <span>More Info</span>
-                </button>
+                </button> */}
                 <a
                   href={project.url}
                   target="_blank"

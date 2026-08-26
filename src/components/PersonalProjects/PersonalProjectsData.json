@@ -15,6 +15,21 @@
     "role": "Frontend Developer"
   },
   {
+    "name": "Expense Tracker",
+    "type": "React Project",
+    "url": "https://expenseeee-trackerrr.netlify.app/",
+    "description": "Responsive expense tracking application built with React.js and Tailwind CSS to manage and track personal expenses.",
+    "highlights": [
+      "Built a responsive expense tracker interface using React.js",
+      "Implemented expense management and tracking functionality",
+      "Created reusable React components for a clean and maintainable UI",
+      "Designed a responsive layout optimized for desktop and mobile screens"
+    ],
+    "languages": ["React.js", "TailwindCSS"],
+    "projectType": "Personal Project",
+    "role": "Frontend Developer"
+  },
+  {
     "name": "Tic Tac Toe",
     "type": "JavaScript Project",
     "url": "https://sivapriyaa-k.github.io/tic-tac-toe/",

@@ -85,33 +85,5 @@
       "Optimized website sections for desktop and mobile devices"
     ],
     "languages": ["WordPress", "Elementor", "PHP", "JavaScript", "CSS"]
-  },
-  {
-    "name": "React.js Projects",
-    "type": "Frontend Development",
-    "url": "",
-    "description": "Personal React.js projects developed to gain practical experience in component-based frontend development.",
-    "role": "WordPress Developer",
-    "company": "Kavisoftek",
-    "projectType": "Client Project",
-    "duration": "2026",
-    "highlights": [
-      "Developed reusable React components",
-      "Built responsive user interfaces",
-      "Implemented component-based frontend functionality"
-    ],
-    "languages": ["React.js", "JavaScript", "HTML", "CSS"]
-  },
-  {
-    "name": "PHP & MySQL Applications",
-    "type": "Web Application",
-    "url": "",
-    "description": "PHP and MySQL-based web applications developed with frontend, backend, and database functionality.",
-    "highlights": [
-      "Implemented frontend and backend functionality",
-      "Performed MySQL database operations",
-      "Integrated frontend features with backend functionality"
-    ],
-    "languages": ["PHP", "MySQL", "JavaScript", "HTML", "CSS"]
   }
 ]

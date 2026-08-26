@@ -1,6 +1,11 @@
 import projectsData from "../Projects/projectsData.json";
 import { useState } from "react";
-import { FaArrowUpRightFromSquare, FaCheck, FaXmark } from "react-icons/fa6";
+import {
+  FaArrowUpRightFromSquare,
+  FaCheck,
+  FaXmark,
+  FaCircleInfo,
+} from "react-icons/fa6";
 export default function Project() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
@@ -37,6 +42,10 @@ export default function Project() {
                   <h3 className="text-base font-bold text-white group-hover:text-[#EE8A25] transition-colors">
                     {project.name}
                   </h3>
+                  <FaCircleInfo
+                    onClick={() => setSelectedProject(project)}
+                    className="text-[#EE8A25] cursor-pointer"
+                  />
 
                   {/* <a
                     href={project.url}
@@ -95,12 +104,12 @@ export default function Project() {
 
               {/* Visit */}
               <div className="flex items-center justify-between pt-1">
-                <button
+                {/* <button
                   onClick={() => setSelectedProject(project)}
                   className="text-xs font-medium text-white bg-zinc-800 hover:bg-[rgba(238,138,37,0.2)] px-3 py-1.5 rounded transition-colors flex items-center gap-2 cursor-pointer"
                 >
                   <span>More Info</span>
-                </button>
+                </button> */}
                 <a
                   href={project.url}
                   target="_blank"
