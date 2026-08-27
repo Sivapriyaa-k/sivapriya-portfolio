@@ -8,11 +8,17 @@ export default function Contact() {
     >
       {/* Heading */}
       <div className="text-left space-y-3 mb-12">
-        <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
+        <h2
+          className="text-3xl sm:text-4xl font-bold tracking-tight text-white wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.05s"
+        >
           Have a project in mind?
         </h2>
 
-        <p className="text-sm text-zinc-400 max-w-xl leading-relaxed">
+        <p
+          className="text-sm text-zinc-400 max-w-xl leading-relaxed wow animate__animated animate__fadeInUp"
+          data-wow-delay="0.05s"
+        >
           I'm currently open to WordPress and frontend opportunities.
         </p>
       </div>
