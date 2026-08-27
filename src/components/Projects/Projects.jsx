@@ -13,7 +13,10 @@ export default function Project() {
       className="Hero container m-auto px-5 sm:px-8 xl:px-[200px] py-[50px]"
       id="projects"
     >
-      <h2 className="text-white font-bold text-3xl mb-10">
+      <h2
+        className="text-white font-bold text-3xl mb-10 wow animate__animated animate__fadeInUp"
+        data-wow-delay="0.05s"
+      >
         Live Client Websites
       </h2>
 
