@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+#contact {
+  scroll-margin-top: 300px;
+}
