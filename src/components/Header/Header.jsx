@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Header() {
   return (
     <>
-      <header className="h-10">
+      <header className="h-10 fixed w-dvw min-h-14 bg-[#000]">
         <nav>
           <div className="container m-auto flex justify-between min-h-14 sm:px-8 xl:px-[200px] px-5">
             <a
