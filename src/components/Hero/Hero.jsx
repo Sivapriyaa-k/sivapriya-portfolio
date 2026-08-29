@@ -48,7 +48,7 @@ export default function Hero() {
               connect on linkedin
             </a>
           </div>
-          <div className="hero-btns flex gap-[20px] mt-10">
+          <div className="hero-btns flex gap-[20px] mt-10 relative z-9">
             <a
               href=""
               className="border text-black bg-white p-3 w-[150px] flex gap-3 center justify-center items-center rounded-xl hover:bg-black hover:text-white animate__animated animate__zoomIn"
