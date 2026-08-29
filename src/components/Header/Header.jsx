@@ -12,10 +12,16 @@ export default function Header() {
             >
               SP
             </a>
-            <div className="nav-links flex items-center justify-center gap-10 text-[#A1A1A1] hover:text-[#EE8A25] font-semibold">
-              <a href="/">Home</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+            <div className="nav-links flex items-center justify-center gap-10 text-[#A1A1A1]font-semibold">
+              <a href="/" className=" hover:text-[#EE8A25] ">
+                Home
+              </a>
+              <a href="#projects" className=" hover:text-[#EE8A25] ">
+                Projects
+              </a>
+              <a href="#contact" className=" hover:text-[#EE8A25] ">
+                Contact
+              </a>
             </div>
           </div>
         </nav>
