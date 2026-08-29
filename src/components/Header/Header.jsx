@@ -12,7 +12,7 @@ export default function Header() {
             >
               SP
             </a>
-            <div className="nav-links flex items-center justify-center gap-10 text-[#A1A1A1]font-semibold">
+            <div className="nav-links flex items-center justify-center gap-10 text-[#A1A1A1] font-semibold">
               <a href="/" className=" hover:text-[#EE8A25] ">
                 Home
               </a>
