@@ -158,7 +158,7 @@ export default function Contact() {
 
           {/* Resume */}
           <a
-            href="https://drive.google.com/file/d/1DQnoBmfqxzZeha-Sw_ZtH1RiQgb8ey_y/view?usp=sharing"
+            href="https://drive.google.com/file/d/15W1D0YxICPO6bfAHSIASki1KVvxZW7Ac/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 text-xs font-medium rounded bg-[rgba(238,138,37,0.1)] hover:bg-[rgba(238,138,37,0.2)] text-zinc-200  hover:text-[#EE8A25] border border-[rgba(238,138,37,0.4)] transition-colors"
